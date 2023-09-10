@@ -16,7 +16,7 @@ int indexInsertion(int arr[],int element, int size, int index,int capacity){
         return -1;
     }
     int i;
-    for ( i = size-1; i >= index; i--)
+    for ( i = size; i >= index; i--)
     {
         arr[i+1] = arr[i];
     }
